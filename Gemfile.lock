@@ -1,12 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    lemmatizer (0.2.2)
+    pycall (1.4.1)
     srt (0.1.5)
 
 PLATFORMS
   arm64-darwin-20
 
 DEPENDENCIES
+  lemmatizer (~> 0.2.2)
+  pycall (~> 1.4)
   srt (~> 0.1.5)
 
 BUNDLED WITH
